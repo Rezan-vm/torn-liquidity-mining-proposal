@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "strictFunctionTypes": true,
+    "declaration": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "typeRoots": [
+      "**/types",
+      "**/node_modules/@types"
+    ]
+  },
+  "include": [
+    "./scripts",
+    "./test"
+  ],
+  "files": [
+    "./hardhat.config.ts",
+    "./global.d.ts"
+  ]
+}
